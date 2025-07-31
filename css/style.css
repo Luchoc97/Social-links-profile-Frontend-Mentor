@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: #141414;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido{
+    background-color: #1F1F1F;
+    border-radius: 20px;
+    width: 30%;
+    padding: 30px;
+    text-align: center;
+}
+.contenido .fotoperfil{
+    border-radius: 50%;
+    width: 30%;
+    margin: 5px 0 25px 0;
+}
+.contenido .ciudad{
+    color: greenyellow;
+    margin: 10px 0 25px 0;
+}
+.contenido .profesion{
+    margin-bottom: 25px;
+}
+.contenido .enlaces{
+    display: block;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #333333;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.contenido .enlaces:hover{
+    background-color: greenyellow;
+    color: #1F1F1F;
+    transition: .5s;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 900px){
+    .contenido{
+        width: 50%;
+    }
+}
+@media (max-width: 480px){
+    .contenido{
+        width: 80%;
+    }
+}
+@media (max-width: 768px){
+    .contenido{
+        width: 60%;
+    }
+}
+@media (max-width: 480px){
+    .contenido{
+        width: 80%;
+    }
+}

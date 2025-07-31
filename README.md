@@ -1,2 +1,6 @@
-# Social-links-profile-Frontend-Mentor
-Repositorio para publicar desafio Social links profile de frontend mentor
+# Frontend Mentor - Social links profile
+
+![Design preview for the Social links profile coding challenge](./preview.jpg)
+
+## Welcome! 👋
+
